@@ -1,7 +1,7 @@
 # Requires the following libraries:
 - cv2 (python-opencv2, version 4.10.0)
 - pyyaml (pyyaml)
-- face-recognition ()
+- face-recognition (requires cmake, wheel, dlib)
 - cmake
 - wheel
 - dlib
