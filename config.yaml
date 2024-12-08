@@ -1,0 +1,22 @@
+# settings constants (default is 16:9 360p, 30fps)
+WIDTH: 640
+HEIGHT: 360
+FPS_CAP: 30
+CAM_INDEX: 0 # usually 0, could be 1 if more than one camera is connected
+WINDOWS_ORIGIN_X: 0
+WINDOWS_ORIGIN_Y: 0
+DISPLAY_NAME: "Webcam"
+TRACKBAR_NAME: "Trackbars"
+TRACKBAR_COUNT: 7 # change based on number of trackbars
+TRACKBAR_HEIGHT: 36 # standard height for trackbar in trackbar menu window
+TRACKBAR_DEF_VALUE: 0
+HSV_HUE_UPPER_BOUND: 179
+HSV_DEF_UPPER_BOUND: 255
+MIN_CONTOUR_AREA: 256
+MAX_CONTOUR_AREA: 115200 # WIDTH * HEIGHT / 2 by default
+IMAGE_DIR: "ImageDir"
+HAAR_FACE_CASCADE_PATH: "haar/haarcascade_frontalface_default.xml"
+HAAR_EYE_CASCADE_PATH: "haar/haarcascade_eye_tree_eyeglasses.xml" # for considering glasses
+HAAR_SMILE_CASCADE_PATH: "haar/haarcascade_smile.xml"
+FONT_DEF: 1 # cv2.FONT_HERSHEY_PLAIN (= 1) by default
+FONT_FACE_DEF: 0 # cv2.FONT_HERSHEY_SIMPLEX (= 0) by default
