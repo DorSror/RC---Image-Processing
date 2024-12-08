@@ -1,8 +1,6 @@
 import cv2 # 4.10.0
 import time
-import os
 import dill
-import numpy as np
 import yaml # pyyaml
 import face_recognition as fr # requires cmake (manual install on windows), wheel, dlib.
 # fr is computation heavy - preferably run this on GPU. (todo?)
